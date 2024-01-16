@@ -59,6 +59,7 @@ buildThis:
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/unix/vpkGit.Mod
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkCharacterStack.Mod
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkJsonParser.Mod
+	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkJson.Mod
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkConf.Mod
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkStorage.Mod
 	cd $(BUILD) && $(VOC) -s $(mkfile_dir_path)/src/vpkSyncer.Mod
