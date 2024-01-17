@@ -1,4 +1,5 @@
-MODULE Json;   (* :file: Json.Mod  --  A simple Json parser. *)
+MODULE vpkJson;   (* :file: Json.Mod  --  A simple Json parser. *)
+IMPORT Out;
 (* IMPORT DDX;  (* DDX: only for sts-q style debugging, to be removed/replaced in production *) *)
 
 (** A simple Json parser and printer.
@@ -522,6 +523,10 @@ BEGIN
    RETURN res;
 END Parse;
 
+PROCEDURE Hello*;
+BEGIN
+END Hello;
+
 
 BEGIN (* MAIN *)
    currentIndentation := 0;
@@ -529,6 +534,6 @@ BEGIN (* MAIN *)
    srcPos  := 0;
    srcLine := 1;
    srcCol  := 1;
-END Json.
+END vpkJson.
 (* :file: END (c) sts-q 2024-Feb *)
 

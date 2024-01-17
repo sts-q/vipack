@@ -1,6 +1,7 @@
 MODULE vipack;
 IMPORT  Texts, Strings, Oberon, Out,
-  vpkConf, vpkLogger, vpkSyncer, vpkInstaller, vpkdepTree, opts, StringList;
+  vpkConf, vpkLogger, vpkSyncer, vpkInstaller, vpkdepTree, opts, StringList,
+  vpkJson;
 (*
 PROCEDURE processArgs(VAR package, prefix, tree: ARRAY OF CHAR; deps, sync: BOOLEAN);
 VAR

@@ -1,6 +1,6 @@
 MODULE vpkJsonDepRetriever;
-IMPORT Out, StringList, strUtils, vpkJsonParser, vpkStorage, vpkSettings, vpkdepTree;
-
+IMPORT Out, StringList, strUtils, vpkJsonParser, vpkStorage, vpkSettings, vpkdepTree, vpkJson;
+   
 PROCEDURE getBuildInfo*(VAR d: vpkdepTree.Tdep; VAR k, v: StringList.TStringList): BOOLEAN;
 VAR
   p: strUtils.pstring;
@@ -104,6 +104,8 @@ BEGIN
 END getDeps;
 
 
+BEGIN
 
+   vpkJson.Hello;
 
 END vpkJsonDepRetriever.
